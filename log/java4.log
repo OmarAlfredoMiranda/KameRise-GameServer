@@ -1,0 +1,1008 @@
+2025.04.06 02:10:12,770	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml doesn't exist using automatic configuration...
+2025.04.06 02:10:13,216	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.100.0/24 address: 192.168.100.5
+2025.04.06 02:10:13,216	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+2025.04.06 02:10:13,217	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 0.0.0.0/0 address: 190.124.152.183
+2025.04.06 02:10:13,243	INFO	1	org.l2jmobius.Config	Loaded 6 Filter Words.
+2025.04.06 02:10:13,268	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2025.04.06 02:10:13,434	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2025.04.06 02:10:13,572	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2025.04.06 02:10:13,579	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2025.04.06 02:10:13,581	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2025.04.06 02:10:13,581	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 12 high priority threads.
+2025.04.06 02:10:13,588	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 48 total threads.
+2025.04.06 02:10:13,588	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 24 total threads.
+2025.04.06 02:10:13,590	INFO	1	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2025.04.06 02:10:13,600	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	Updated characters online status.
+2025.04.06 02:10:13,657	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 elements from database in 0 seconds.
+2025.04.06 02:10:13,665	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 expired timestamps from database.
+2025.04.06 02:10:13,690	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: 102912 id's available.
+2025.04.06 02:10:13,691	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2025.04.06 02:10:13,870	INFO	1	org.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 380 files to exclude.
+2025.04.06 02:10:13,871	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2025.04.06 02:10:13,876	INFO	1	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Multiverse Instance created.
+2025.04.06 02:10:13,876	INFO	1	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Universe Instance created.
+2025.04.06 02:10:13,899	INFO	1	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Loaded 2 instance templates.
+2025.04.06 02:10:14,028	INFO	1	org.l2jmobius.commons.util.IXmlReader	MapRegionManager: Loaded 42 map regions.
+2025.04.06 02:10:14,047	INFO	1	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 5 variables.
+2025.04.06 02:10:14,047	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2025.04.06 02:10:14,075	INFO	1	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 160 categories.
+2025.04.06 02:10:14,080	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2025.04.06 02:10:15,596	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 143 effect handlers.
+2025.04.06 02:10:15,701	INFO	1	org.l2jmobius.gameserver.data.sql.EnchantSkillTreesTable	EnchantSkillTreesTable: Loaded 14520 enchant skills.
+2025.04.06 02:10:16,152	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 13741 Class Skills for 89 class skill trees.
+2025.04.06 02:10:16,152	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 117 fishing skills, 8 Dwarven only fishing skills.
+2025.04.06 02:10:16,156	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 64 clan skills, 64 for clan and 0 residential.
+2025.04.06 02:10:16,156	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 8 noble skills.
+2025.04.06 02:10:16,158	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 5 hero skills.
+2025.04.06 02:10:16,158	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 25 game master skills.
+2025.04.06 02:10:16,158	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 1 game master aura skills.
+2025.04.06 02:10:18,074	INFO	1	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 29864 Skill templates from XML files.
+2025.04.06 02:10:18,107	INFO	1	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 795 skills.
+2025.04.06 02:10:18,107	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2025.04.06 02:10:18,155	WARNING	1	org.l2jmobius.gameserver.util.DocumentItem	Cannot create item 485
+2025.04.06 02:10:18,158	WARNING	1	org.l2jmobius.gameserver.util.DocumentItem	Cannot create item 486
+2025.04.06 02:10:18,159	WARNING	1	org.l2jmobius.gameserver.util.DocumentItem	Cannot create item 488
+2025.04.06 02:10:18,159	WARNING	1	org.l2jmobius.gameserver.util.DocumentItem	Cannot create item 489
+2025.04.06 02:10:18,380	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Highest item id used: 13534
+2025.04.06 02:10:18,381	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 6881 etc items.
+2025.04.06 02:10:18,381	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 1102 armor items.
+2025.04.06 02:10:18,382	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 1223 weapon items.
+2025.04.06 02:10:18,382	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 9206 items in total.
+2025.04.06 02:10:18,387	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 4 item group templates.
+2025.04.06 02:10:18,387	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2025.04.06 02:10:18,387	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max weapon enchant is set to 16.
+2025.04.06 02:10:18,387	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max armor enchant is set to 16.
+2025.04.06 02:10:18,387	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max accessory enchant is set to 16.
+2025.04.06 02:10:18,390	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemData: Loaded 30 enchant scrolls.
+2025.04.06 02:10:18,394	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemOptionsData: Loaded 0 items and 0 options.
+2025.04.06 02:10:18,840	INFO	1	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 16380 options.
+2025.04.06 02:10:18,848	INFO	1	org.l2jmobius.commons.util.IXmlReader	EnchantItemHPBonusData: Loaded 6 enchant HP bonuses.
+2025.04.06 02:10:18,850	INFO	1	org.l2jmobius.gameserver.data.MerchantPriceConfigTable	MerchantPriceConfigTable: Loaded 28 merchant price configs.
+2025.04.06 02:10:19,429	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Folder C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\buylists\custom doesn't exist!
+2025.04.06 02:10:19,429	INFO	1	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 616 buyLists.
+2025.04.06 02:10:19,580	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:10:19,580	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:10:19,580	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:10:19,580	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:10:19,580	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:10:19,580	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:10:19,580	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:10:19,581	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:10:19,582	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:10:19,583	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:10:19,583	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:10:19,588	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:10:19,595	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:10:19,595	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:10:19,595	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:10:19,595	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:10:19,595	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:10:19,595	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:10:19,595	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:10:19,598	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:10:19,599	SEVERE	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
+2025.04.06 02:10:19,631	INFO	1	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 112 multisell lists.
+2025.04.06 02:10:19,668	INFO	1	org.l2jmobius.commons.util.IXmlReader	RecipeData: Loaded 871 recipes.
+2025.04.06 02:10:19,683	INFO	1	org.l2jmobius.commons.util.IXmlReader	ArmorSetData: Loaded 51 armor sets.
+2025.04.06 02:10:19,694	INFO	1	org.l2jmobius.commons.util.IXmlReader	FishData: Loaded 278 fishes.
+2025.04.06 02:10:19,697	INFO	1	org.l2jmobius.commons.util.IXmlReader	FishingMonstersData: Loaded 8 fishing monsters.
+2025.04.06 02:10:19,700	INFO	1	org.l2jmobius.commons.util.IXmlReader	FishingRodsData: Loaded 6 fishing rods.
+2025.04.06 02:10:19,725	INFO	1	org.l2jmobius.commons.util.IXmlReader	HennaData: Loaded 180 henna data.
+2025.04.06 02:10:19,726	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2025.04.06 02:10:19,730	INFO	1	org.l2jmobius.commons.util.IXmlReader	ClassListData: Loaded 89 class data.
+2025.04.06 02:10:19,734	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialEquipmentData: Loaded 9 initial equipment data.
+2025.04.06 02:10:19,738	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 5 initial global shortcut data.
+2025.04.06 02:10:19,738	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 4 initial shortcut data.
+2025.04.06 02:10:19,738	INFO	1	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 0 macro presets.
+2025.04.06 02:10:19,741	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 81 levels.
+2025.04.06 02:10:19,742	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 80.
+2025.04.06 02:10:19,742	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 80.
+2025.04.06 02:10:19,746	INFO	1	org.l2jmobius.commons.util.IXmlReader	KarmaData: Loaded 80 karma modifiers.
+2025.04.06 02:10:19,750	INFO	1	org.l2jmobius.commons.util.IXmlReader	HitConditionBonusData: Loaded hit condition bonuses.
+2025.04.06 02:10:19,964	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 89 character templates.
+2025.04.06 02:10:19,965	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 42720 level up gain records.
+2025.04.06 02:10:19,969	INFO	1	org.l2jmobius.gameserver.data.sql.CharInfoTable	CharInfoTable: Loaded 31 char names.
+2025.04.06 02:10:19,972	INFO	1	org.l2jmobius.commons.util.IXmlReader	AdminData: Loaded 10 access levels.
+2025.04.06 02:10:19,975	INFO	1	org.l2jmobius.commons.util.IXmlReader	AdminData: Loaded 425 access commands.
+2025.04.06 02:10:19,978	INFO	1	org.l2jmobius.gameserver.instancemanager.RaidBossPointsManager	RaidBossPointsManager: Loaded 0 Characters Raid Points.
+2025.04.06 02:10:20,047	INFO	1	org.l2jmobius.commons.util.IXmlReader	PetDataTable: Loaded 12 pets.
+2025.04.06 02:10:20,052	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2025.04.06 02:10:20,061	INFO	1	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+2025.04.06 02:10:20,061	INFO	1	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 0 clans from the database.
+2025.04.06 02:10:20,068	INFO	1	org.l2jmobius.gameserver.instancemanager.CHSiegeManager	CHSiegeManager: Loaded 6 conquerable clan halls.
+2025.04.06 02:10:20,108	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Loaded 38 auction(s)
+2025.04.06 02:10:20,111	INFO	1	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 0 clan halls
+2025.04.06 02:10:20,111	INFO	1	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 38 free clan halls
+2025.04.06 02:10:20,111	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2025.04.06 02:10:20,859	INFO	1	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 158 regions.
+2025.04.06 02:10:20,859	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2025.04.06 02:10:20,882	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 12 by 17 Zone Region Grid set up.
+2025.04.06 02:10:21,986	INFO	1	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 6519 NPCs.
+2025.04.06 02:10:22,003	INFO	1	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 19 custom NPCs.
+2025.04.06 02:10:22,007	INFO	1	org.l2jmobius.commons.util.IXmlReader	SkillLearnData: Loaded 217 skill learn data.
+2025.04.06 02:10:22,012	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Gigantic Chaos Golem(25512) status is 0.
+2025.04.06 02:10:22,013	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29014) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Zaken(29022) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Frintezza(29045) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0.
+2025.04.06 02:10:22,014	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 9 Instances
+2025.04.06 02:10:22,119	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 28 zone classes and 2413 zones.
+2025.04.06 02:10:22,122	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 200011.
+2025.04.06 02:10:22,168	INFO	1	org.l2jmobius.commons.util.IXmlReader	DoorData: Loaded 547 doors.
+2025.04.06 02:10:22,180	INFO	1	FenceData	FenceData: Loaded 1 fences.
+2025.04.06 02:10:22,191	INFO	1	org.l2jmobius.gameserver.data.xml.LevelUpCrystalData	Soul crystal data : Loaded 39
+2025.04.06 02:10:22,191	INFO	1	org.l2jmobius.gameserver.data.xml.LevelUpCrystalData	Npc leveling crystal data : Loaded 125
+2025.04.06 02:10:22,192	INFO	1	org.l2jmobius.gameserver.data.xml.FakePlayerData	FakePlayerData: Disabled.
+2025.04.06 02:10:22,193	INFO	1	org.l2jmobius.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Disabled.
+2025.04.06 02:10:23,046	INFO	1	org.l2jmobius.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 14 walking routes.
+2025.04.06 02:10:23,052	INFO	1	org.l2jmobius.commons.util.IXmlReader	StaticObjectData: Loaded 29 static object templates.
+2025.04.06 02:10:23,064	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManager	CastleManager: Loaded 9 castles
+2025.04.06 02:10:23,070	INFO	1	org.l2jmobius.gameserver.data.SchemeBufferTable	SchemeBufferTable: Loaded 26 players schemes and 38 available buffs.
+2025.04.06 02:10:23,071	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Initialized 14 Grand Boss Zones
+2025.04.06 02:10:23,071	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2025.04.06 02:10:23,078	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loading Olympiad System....
+2025.04.06 02:10:23,078	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2025.04.06 02:10:23,079	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: 36589 minutes until period ends
+2025.04.06 02:10:23,079	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 3934 minutes
+2025.04.06 02:10:23,079	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2025.04.06 02:10:23,085	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 15 hours and 49 mins.
+2025.04.06 02:10:23,094	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started : Sun Apr 06 18:00:23 ART 2025
+2025.04.06 02:10:23,098	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2025.04.06 02:10:23,098	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2025.04.06 02:10:23,098	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------=[ Seven Signs ]
+2025.04.06 02:10:23,101	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
+2025.04.06 02:10:23,102	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2025.04.06 02:10:23,102	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2025.04.06 02:10:23,102	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2025.04.06 02:10:23,102	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2025.04.06 02:10:23,102	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period change set to Mon Apr 07 18:00:23 ART 2025
+2025.04.06 02:10:23,103	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period begins in 1 days, 15 hours and 49 mins.
+2025.04.06 02:10:23,103	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2025.04.06 02:10:23,104	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache.
+2025.04.06 02:10:23,106	INFO	1	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2025.04.06 02:10:23,113	INFO	1	org.l2jmobius.gameserver.data.sql.TeleportLocationTable	TeleportLocationTable: Loaded 704 teleport location templates.
+2025.04.06 02:10:23,158	INFO	1	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 22640 augmentations.
+2025.04.06 02:10:23,163	INFO	1	org.l2jmobius.gameserver.instancemanager.SellBuffsManager	SellBuffsManager: Loaded 132 allowed buffs.
+2025.04.06 02:10:23,163	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2025.04.06 02:10:23,164	INFO	1	org.l2jmobius.gameserver.GameServer	Loading server scripts...
+2025.04.06 02:10:25,438	INFO	1	handlers.MasterHandler	Loading Handlers...
+2025.04.06 02:10:25,581	INFO	1	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2025.04.06 02:10:25,581	INFO	1	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	AdminCommandHandler: Loaded 436 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	BypassHandler: Loaded 38 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	CommunityBoardHandler: Loaded 27 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	ItemHandler: Loaded 25 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	UserCommandHandler: Loaded 15 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	VoicedCommandHandler: Loaded 15 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	TargetHandler: Loaded 34 handlers.
+2025.04.06 02:10:25,582	INFO	1	handlers.MasterHandler	Handlers Loaded...
+2025.04.06 02:10:30,940	INFO	1	org.l2jmobius.commons.util.IXmlReader	NpcBuffersData: Loaded 10 buffers data.
+2025.04.06 02:10:30,973	CONFIG	1	conquerablehalls.BanditStronghold.BanditStronghold	Bandit StrongHold siege scheduled for Wed Apr 09 12:00:00 ART 2025.
+2025.04.06 02:10:30,976	CONFIG	1	conquerablehalls.DevastatedCastle.DevastatedCastle	Devastated Castle siege scheduled for Wed Apr 09 12:00:00 ART 2025.
+2025.04.06 02:10:30,978	CONFIG	1	conquerablehalls.FortressOfResistance.FortressOfResistance	Fortress of Resistance siege scheduled for Wed Apr 09 12:00:00 ART 2025.
+2025.04.06 02:10:30,984	CONFIG	1	conquerablehalls.FortressOfTheDead.FortressOfTheDead	Fortress of the Dead siege scheduled for Wed Apr 09 12:00:00 ART 2025.
+2025.04.06 02:10:30,988	CONFIG	1	conquerablehalls.RainbowSpringsChateau.RainbowSpringsChateau	Rainbow Springs siege scheduled for Wed Apr 09 12:00:00 ART 2025.
+2025.04.06 02:10:30,991	CONFIG	1	conquerablehalls.WildBeastReserve.WildBeastReserve	Beast Farm siege scheduled for Wed Apr 09 12:00:00 ART 2025.
+2025.04.06 02:10:31,032	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event Heavy Medal has passed... Ignored 
+2025.04.06 02:10:31,035	INFO	1	org.l2jmobius.gameserver.model.events.AbstractScript	Event L2 Day has passed... Ignored 
+2025.04.06 02:10:31,471	INFO	1	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Initializing spawns...
+2025.04.06 02:10:33,703	INFO	1	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: 36013 spawns have been initialized!
+2025.04.06 02:10:33,706	INFO	1	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Removed 0 night creatures
+2025.04.06 02:10:33,709	INFO	1	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2025.04.06 02:10:33,715	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 20 Mysterious-Box spawns.
+2025.04.06 02:10:33,747	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Physical type monsters spawns.
+2025.04.06 02:10:33,772	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Magical type monsters spawns.
+2025.04.06 02:10:33,777	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 92 Church of duke monsters spawns.
+2025.04.06 02:10:33,781	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 68 Emperor's grave NPC spawns.
+2025.04.06 02:10:33,782	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Conquerors' Sepulcher Manager
+2025.04.06 02:10:33,782	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Emperors' Sepulcher Manager
+2025.04.06 02:10:33,782	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Great Sages' Sepulcher Manager
+2025.04.06 02:10:33,782	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Judges' Sepulcher Manager
+2025.04.06 02:10:33,783	INFO	1	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: Beginning in Attack time
+2025.04.06 02:10:33,787	INFO	1	org.l2jmobius.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2025.04.06 02:10:33,790	INFO	1	org.l2jmobius.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2025.04.06 02:10:33,808	INFO	1	org.l2jmobius.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 190 Instances
+2025.04.06 02:10:33,808	INFO	1	org.l2jmobius.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2025.04.06 02:10:33,808	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2025.04.06 02:10:33,818	INFO	1	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2025.04.06 02:10:33,818	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Apr 06 16:00:00 ART 2025
+2025.04.06 02:10:33,820	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Apr 06 20:00:00 ART 2025
+2025.04.06 02:10:33,820	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Apr 06 16:00:00 ART 2025
+2025.04.06 02:10:33,822	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Apr 06 20:00:00 ART 2025
+2025.04.06 02:10:33,822	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Apr 06 16:00:00 ART 2025
+2025.04.06 02:10:33,823	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Innadril: Sun Apr 06 20:00:00 ART 2025
+2025.04.06 02:10:33,823	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Goddard: Sun Apr 06 16:00:00 ART 2025
+2025.04.06 02:10:33,824	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Rune: Sun Apr 06 20:00:00 ART 2025
+2025.04.06 02:10:33,824	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Apr 06 16:00:00 ART 2025
+2025.04.06 02:10:33,836	INFO	1	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Loaded 258 seeds.
+2025.04.06 02:10:33,841	INFO	1	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Manor data loaded.
+2025.04.06 02:10:33,848	INFO	1	org.l2jmobius.gameserver.instancemanager.MercTicketManager	MercTicketManager: Loaded 0 Mercenary Tickets
+2025.04.06 02:10:33,848	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 342 quests.
+2025.04.06 02:10:33,850	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 121 scripts.
+2025.04.06 02:10:33,855	INFO	1	org.l2jmobius.gameserver.instancemanager.games.MonsterRaceManager	MonsterRace: loaded 742 records, currently on race #743
+2025.04.06 02:10:33,903	INFO	1	org.l2jmobius.gameserver.model.sevensigns.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+2025.04.06 02:10:33,904	INFO	1	org.l2jmobius.gameserver.GameServer	AutoSpawnHandler: Loaded 124 handlers in total.
+2025.04.06 02:10:33,913	INFO	1	org.l2jmobius.gameserver.taskmanager.TaskManager	TaskManager: Loaded 10 Tasks.
+2025.04.06 02:10:33,916	INFO	1	org.l2jmobius.gameserver.instancemanager.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2025.04.06 02:10:33,917	INFO	1	org.l2jmobius.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1879007438
+2025.04.06 02:10:33,919	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2025.04.06 02:10:33,920	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 0 offline traders.
+2025.04.06 02:10:33,920	INFO	1	org.l2jmobius.gameserver.instancemanager.ServerRestartManager	Scheduled server restart at Sun Apr 06 06:00:00 ART 2025.
+2025.04.06 02:10:34,572	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Started, using 1412 of 4096 MB total memory.
+2025.04.06 02:10:34,572	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2025.04.06 02:10:34,573	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 22 seconds.
+2025.04.06 02:10:34,590	INFO	137	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2025.04.06 02:10:34,653	INFO	137	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2025.04.06 02:11:12,590	WARNING	151	org.l2jmobius.gameserver.model.actor.Creature	User access level set for character KameKase! Just a warning to be careful ;)
+2025.04.06 02:11:12,601	SEVERE	151	org.l2jmobius.gameserver.model.item.instance.Item	Item item_id=485 not known, object_id=268476759
+2025.04.06 02:12:44,093	SEVERE	232	org.l2jmobius.gameserver.model.item.instance.Item	Item item_id=485 not known, object_id=268476759
+2025.04.06 02:13:43,170	WARNING	233	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:14:27,502	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:14:27,503	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:14:27,504	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:14:27,504	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:14:27,504	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:14:27,504	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:14:27,504	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:14:27,504	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:14:27,509	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:14:27,518	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:14:27,518	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:14:27,518	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:14:27,518	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:14:27,518	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:14:27,518	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:14:27,518	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:14:27,528	WARNING	105	org.l2jmobius.commons.util.IXmlReader	Could not parse file: 52009.xml at line: 44, column: 17 :
+2025.04.06 02:14:27,560	INFO	105	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 112 multisell lists.
+2025.04.06 02:14:28,839	WARNING	160	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:15:33,624	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:15:33,625	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:15:33,626	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:15:33,633	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:15:33,637	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:15:33,637	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:15:33,637	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:15:33,637	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:15:33,637	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:15:33,637	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:15:33,637	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:15:33,641	WARNING	108	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:15:33,660	INFO	108	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:16:00,732	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:16:00,733	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:16:00,738	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:16:00,741	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:16:00,741	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:16:00,741	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:16:00,741	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:16:00,741	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:16:00,741	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:16:00,741	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:16:00,747	WARNING	103	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:16:00,748	SEVERE	103	org.l2jmobius.commons.util.IXmlReader	MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
+2025.04.06 02:16:00,768	INFO	103	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 112 multisell lists.
+2025.04.06 02:16:01,758	WARNING	199	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:17:23,739	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:17:23,749	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:17:23,754	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:17:23,754	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:17:23,754	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:17:23,754	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:17:23,754	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:17:23,754	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:17:23,754	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:17:23,758	WARNING	110	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:17:23,778	INFO	110	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:17:45,028	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:17:45,029	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:17:45,034	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:17:45,038	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:17:45,038	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:17:45,038	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:17:45,038	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:17:45,038	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:17:45,038	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:17:45,038	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:17:45,041	WARNING	106	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:17:45,041	SEVERE	106	org.l2jmobius.commons.util.IXmlReader	MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
+2025.04.06 02:17:45,064	INFO	106	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 112 multisell lists.
+2025.04.06 02:17:46,373	WARNING	208	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:18:03,935	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:18:03,936	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:18:03,941	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:18:03,947	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:18:03,947	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:18:03,947	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:18:03,947	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:18:03,947	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:18:03,947	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:18:03,947	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:18:03,950	WARNING	111	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:18:03,967	WARNING	111	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 485 in list: 52009
+2025.04.06 02:18:03,967	WARNING	111	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 486 in list: 52009
+2025.04.06 02:18:03,967	WARNING	111	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 486 in list: 52009
+2025.04.06 02:18:03,967	WARNING	111	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 488 in list: 52009
+2025.04.06 02:18:03,967	WARNING	111	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 488 in list: 52009
+2025.04.06 02:18:03,968	INFO	111	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:18:53,918	INFO	49	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:23:20,324	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:23:20,325	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:23:20,329	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:23:20,334	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:23:20,334	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:23:20,334	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:23:20,334	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:23:20,334	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:23:20,334	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:23:20,334	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:23:20,340	WARNING	114	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:23:20,340	SEVERE	114	org.l2jmobius.commons.util.IXmlReader	MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
+2025.04.06 02:23:20,360	INFO	114	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 112 multisell lists.
+2025.04.06 02:23:23,917	WARNING	226	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:23:26,642	WARNING	228	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:23:46,158	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:23:46,159	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:23:46,162	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:23:46,167	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:23:46,167	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:23:46,167	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:23:46,167	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:23:46,167	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:23:46,167	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:23:46,167	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:23:46,173	WARNING	113	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:23:46,173	SEVERE	113	org.l2jmobius.commons.util.IXmlReader	MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
+2025.04.06 02:23:46,191	INFO	113	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 112 multisell lists.
+2025.04.06 02:24:29,339	WARNING	205	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:24:41,098	WARNING	207	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:24:44,888	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:24:44,889	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:24:44,893	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:24:44,897	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:24:44,897	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:24:44,897	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:24:44,897	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:24:44,897	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:24:44,897	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:24:44,897	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:24:44,900	WARNING	116	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:24:44,915	WARNING	116	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 485 in list: 52009
+2025.04.06 02:24:44,915	WARNING	116	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 486 in list: 52009
+2025.04.06 02:24:44,915	WARNING	116	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 486 in list: 52009
+2025.04.06 02:24:44,915	WARNING	116	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 488 in list: 52009
+2025.04.06 02:24:44,915	WARNING	116	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 488 in list: 52009
+2025.04.06 02:24:44,917	INFO	116	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:25:08,792	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:25:08,792	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:25:08,792	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:25:08,792	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:25:08,792	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:25:08,792	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:25:08,792	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:25:08,793	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:25:08,797	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:25:08,800	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:25:08,800	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:25:08,800	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:25:08,800	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:25:08,800	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:25:08,800	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:25:08,800	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:25:08,805	WARNING	117	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:25:08,805	SEVERE	117	org.l2jmobius.commons.util.IXmlReader	MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
+2025.04.06 02:25:08,823	INFO	117	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 112 multisell lists.
+2025.04.06 02:25:11,110	WARNING	215	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find list id: 52009 requested by player: KameKase, npcId:30086
+2025.04.06 02:25:24,819	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:25:24,819	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:25:24,819	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:25:24,819	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:25:24,819	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:25:24,820	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:25:24,826	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:25:24,830	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:25:24,830	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:25:24,830	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:25:24,830	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:25:24,830	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:25:24,830	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:25:24,830	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:25:24,833	WARNING	96	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:25:24,853	WARNING	96	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 485 in list: 52009
+2025.04.06 02:25:24,854	WARNING	96	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 486 in list: 52009
+2025.04.06 02:25:24,854	WARNING	96	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 486 in list: 52009
+2025.04.06 02:25:24,854	WARNING	96	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 488 in list: 52009
+2025.04.06 02:25:24,854	WARNING	96	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 488 in list: 52009
+2025.04.06 02:25:24,855	INFO	96	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:25:54,972	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:25:54,973	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:25:54,978	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:25:54,982	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:25:54,982	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:25:54,982	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:25:54,982	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:25:54,982	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:25:54,982	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:25:54,982	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:25:54,987	WARNING	119	org.l2jmobius.commons.util.IXmlReader	Buy price 128 is less than sell price 12500 at entry 5 of multisell 52009.
+2025.04.06 02:25:55,000	WARNING	119	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 486 in list: 52009
+2025.04.06 02:25:55,000	WARNING	119	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 486 in list: 52009
+2025.04.06 02:25:55,000	WARNING	119	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 488 in list: 52009
+2025.04.06 02:25:55,000	WARNING	119	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 488 in list: 52009
+2025.04.06 02:25:55,003	INFO	119	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:29:33,868	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:29:33,871	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:29:33,875	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:29:33,875	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:29:33,875	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:29:33,875	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:29:33,875	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:29:33,875	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:29:33,875	WARNING	99	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:29:33,891	WARNING	99	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 486 in list: 52009
+2025.04.06 02:29:33,891	WARNING	99	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 486 in list: 52009
+2025.04.06 02:29:33,891	WARNING	99	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 488 in list: 52009
+2025.04.06 02:29:33,891	WARNING	99	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 488 in list: 52009
+2025.04.06 02:29:33,893	INFO	99	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:35:14,189	INFO	118	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache.
+2025.04.06 02:40:33,929	INFO	59	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:41:13,722	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:41:13,723	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:41:13,727	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:41:13,731	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:41:13,731	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:41:13,731	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:41:13,731	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:41:13,731	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:41:13,731	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:41:13,731	WARNING	97	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:41:13,749	WARNING	97	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 486 in list: 52009
+2025.04.06 02:41:13,749	WARNING	97	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 486 in list: 52009
+2025.04.06 02:41:13,749	WARNING	97	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 489 in list: 52009
+2025.04.06 02:41:13,749	WARNING	97	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 489 in list: 52009
+2025.04.06 02:41:13,750	INFO	97	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:43:23,090	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 6 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 7 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 8 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 12 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 13 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 14 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 15 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 16 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 17 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 21 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 22 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 23 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 25 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 26 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 27 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 28 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 32 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 33 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 34 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 38 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 39 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 40 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 41 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 42 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 46 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 47 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 48 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 49 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 50 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3063775 at entry 51 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 52 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 53 of multisell 51004.
+2025.04.06 02:43:23,091	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 3000000 is less than sell price 3065000 at entry 54 of multisell 51004.
+2025.04.06 02:43:23,095	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 5000000 is less than sell price 8700000 at entry 5 of multisell 52000.
+2025.04.06 02:43:23,098	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 400000 is less than sell price 500000 at entry 8 of multisell 52005.
+2025.04.06 02:43:23,098	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 600000 at entry 9 of multisell 52005.
+2025.04.06 02:43:23,098	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 200000 is less than sell price 220000 at entry 11 of multisell 52005.
+2025.04.06 02:43:23,098	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 300000 is less than sell price 450000 at entry 12 of multisell 52005.
+2025.04.06 02:43:23,098	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 800000 is less than sell price 1220000 at entry 13 of multisell 52005.
+2025.04.06 02:43:23,098	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 500000 is less than sell price 1450000 at entry 14 of multisell 52005.
+2025.04.06 02:43:23,098	WARNING	101	org.l2jmobius.commons.util.IXmlReader	Buy price 1000000 is less than sell price 1750000 at entry 15 of multisell 52005.
+2025.04.06 02:43:23,116	WARNING	101	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 486 in list: 52009
+2025.04.06 02:43:23,116	WARNING	101	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 486 in list: 52009
+2025.04.06 02:43:23,116	WARNING	101	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find product with itemId: 489 in list: 52009
+2025.04.06 02:43:23,116	WARNING	101	org.l2jmobius.commons.util.IXmlReader	MultisellData: can't find ingredient with itemId: 489 in list: 52009
+2025.04.06 02:43:23,117	INFO	101	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 113 multisell lists.
+2025.04.06 02:48:53,920	INFO	91	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 03:10:33,921	INFO	73	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2025.04.06 03:18:53,920	INFO	69	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 03:40:33,920	INFO	55	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2025.04.06 03:48:53,917	INFO	80	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 04:00:00,064	INFO	106	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Removed 232 day creatures
+2025.04.06 04:00:00,107	INFO	106	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Spawned 684 night creatures
+2025.04.06 04:00:32,923	INFO	80	ai.bosses.Zaken.Zaken	Zaken door id 21240006 opened, game time 00.00.
+2025.04.06 04:05:32,940	INFO	71	ai.bosses.Zaken.Zaken	Zaken door id 21240006 closed.
+2025.04.06 04:10:33,929	INFO	70	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2025.04.06 04:18:53,928	INFO	66	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 04:40:33,928	INFO	73	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2025.04.06 04:48:53,927	INFO	79	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 05:00:00,069	INFO	105	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Removed 684 night creatures
+2025.04.06 05:00:00,073	INFO	105	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2025.04.06 05:10:33,925	INFO	60	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2025.04.06 05:18:53,926	INFO	66	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 05:40:33,928	INFO	52	org.l2jmobius.gameserver.taskmanager.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2025.04.06 05:48:53,918	INFO	91	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 05:50:00,925	WARNING	69	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Restart in 600 seconds!
+2025.04.06 06:00:05,103	WARNING	437	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. restarting NOW!
+2025.04.06 06:00:05,105	INFO	437	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(0ms).
+2025.04.06 06:00:05,106	INFO	437	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(2ms).
+2025.04.06 06:00:05,106	INFO	437	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2025.04.06 06:00:05,106	INFO	437	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(0ms).
+2025.04.06 06:00:05,106	INFO	437	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(0ms).
+2025.04.06 06:00:05,106	INFO	437	org.l2jmobius.gameserver.Shutdown	GM restart received. Restarting NOW!
+2025.04.06 06:00:05,113	INFO	437	org.l2jmobius.gameserver.Shutdown	SevenSignsFestival: Festival data saved(7ms).
+2025.04.06 06:00:05,114	INFO	437	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs data saved(0ms).
+2025.04.06 06:00:05,115	INFO	437	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs status saved(2ms).
+2025.04.06 06:00:05,131	INFO	437	org.l2jmobius.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(16ms).
+2025.04.06 06:00:05,133	INFO	437	org.l2jmobius.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(1ms).
+2025.04.06 06:00:05,133	INFO	437	org.l2jmobius.gameserver.Shutdown	Olympiad System: Data saved(1ms).
+2025.04.06 06:00:05,134	INFO	437	org.l2jmobius.gameserver.Shutdown	Hero System: Data saved(1ms).
+2025.04.06 06:00:05,135	INFO	437	org.l2jmobius.gameserver.Shutdown	Clan System: Data saved(1ms).
+2025.04.06 06:00:05,135	INFO	437	org.l2jmobius.gameserver.Shutdown	Cursed Weapons Manager: Data saved(0ms).
+2025.04.06 06:00:05,135	INFO	437	org.l2jmobius.gameserver.Shutdown	Castle Manor Manager: Data saved(0ms).
+2025.04.06 06:00:05,135	CONFIG	437	conquerablehalls.FortressOfTheDead.FortressOfTheDead	FortressOfTheDead: Successfully saved attackers to database.
+2025.04.06 06:00:05,135	CONFIG	437	conquerablehalls.DevastatedCastle.DevastatedCastle	DevastatedCastle: Successfully saved attackers to database.
+2025.04.06 06:00:05,137	CONFIG	437	conquerablehalls.BanditStronghold.BanditStronghold	BanditStronghold: Successfully saved attackers to database.
+2025.04.06 06:00:05,137	CONFIG	437	conquerablehalls.FortressOfResistance.FortressOfResistance	FortressOfResistance: Successfully saved attackers to database.
+2025.04.06 06:00:05,137	CONFIG	437	conquerablehalls.RainbowSpringsChateau.RainbowSpringsChateau	RainbowSpringsChateau: Successfully saved attackers to database.
+2025.04.06 06:00:05,137	CONFIG	437	conquerablehalls.WildBeastReserve.WildBeastReserve	WildBeastReserve: Successfully saved attackers to database.
+2025.04.06 06:00:05,137	INFO	437	org.l2jmobius.gameserver.Shutdown	CHSiegeManager: Siegable hall attacker lists saved!
+2025.04.06 06:00:05,138	INFO	437	org.l2jmobius.gameserver.Shutdown	Quest Manager: Data saved(3ms).
+2025.04.06 06:00:05,142	INFO	437	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2025.04.06 06:00:05,143	INFO	437	org.l2jmobius.gameserver.Shutdown	Global Variables Manager: Variables saved(4ms).
+2025.04.06 06:00:05,143	INFO	437	org.l2jmobius.gameserver.Shutdown	Fishing Championship data has been saved.
+2025.04.06 06:00:05,173	INFO	437	org.l2jmobius.gameserver.Shutdown	SchemeBufferTable data has been saved.
+2025.04.06 06:00:10,187	INFO	437	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool closed successfully.
+2025.04.06 06:00:10,189	INFO	437	org.l2jmobius.gameserver.Shutdown	Database Factory: Database connection has been shut down(1ms).
+2025.04.06 06:00:10,189	INFO	437	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 5seconds.

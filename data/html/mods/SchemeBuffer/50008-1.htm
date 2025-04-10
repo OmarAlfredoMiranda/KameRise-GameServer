@@ -1,0 +1,22 @@
+<html><body>
+	<center>
+	<font color="LEVEL"><b>You can create up to %max_schemes% schemes.</b></font><br>
+	
+	<b>You can register a new scheme by filling this form below:</b><br>
+	
+	<table width="260">
+		<tr>
+			<td><edit var="name" width=160 height=20></td>
+			<td><button value="Create" action="bypass -h npc_%objectId%_createscheme $name" width=90 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+		</tr>
+	</table>
+	
+	<br>
+	<b>Here are your schemes and their fees:</b><br><br>
+	
+	%schemes% <!-- Se deja solo esto para que el servidor maneje los enlaces -->
+	
+	</center>
+	</body></html>
+	
+	

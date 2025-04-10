@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="17_25">
+		<npc id="20544" x="-81160" y="247483" z="-3596" heading="240" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-81160" y="247483" z="-3596" heading="48511" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-81160" y="247483" z="-3596" heading="48178" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-81160" y="247483" z="-3596" heading="46720" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-80373" y="246715" z="-3727" heading="48641" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-80376" y="245784" z="-3731" heading="49094" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-81395" y="245688" z="-3721" heading="34003" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-82436" y="245915" z="-3694" heading="27407" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-81812" y="245885" z="-3706" heading="64787" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20544" x="-80137" y="244496" z="-3732" heading="57587" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="20130" x="-82837" y="246050" z="-3684" heading="22924" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-82083" y="246199" z="-3684" heading="1505" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-81327" y="246099" z="-3711" heading="62040" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80946" y="245929" z="-3730" heading="61158" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80946" y="245929" z="-3730" heading="61158" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80664" y="245342" z="-3724" heading="54108" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80084" y="244994" z="-3733" heading="60699" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-79998" y="244424" z="-3733" heading="50700" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80393" y="243974" z="-3729" heading="32858" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80544" y="244291" z="-3723" heading="21020" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80836" y="244744" z="-3729" heading="20188" respawnDelay="5" /> <!-- Orc -->
+		<npc id="20130" x="-80624" y="244078" z="-3729" heading="23819" respawnDelay="5" /> <!-- Orc -->
+		<npc id="30006" x="-84147" y="243146" z="-3713" heading="8514" respawnDelay="5" /> <!-- Roxxy - Gatekeeper -->
+		<npc id="20101" x="-91800" y="242525" z="-3545" heading="35986" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-94329" y="244393" z="-3603" heading="12096" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-93881" y="244866" z="-3574" heading="7734" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-91597" y="243554" z="-3482" heading="58910" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-93071" y="242788" z="-3504" heading="38095" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-89644" y="241653" z="-3579" heading="2816" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-88754" y="240949" z="-3556" heading="57939" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-87437" y="240009" z="-3636" heading="4229" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-89140" y="240418" z="-3600" heading="29819" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-90231" y="240493" z="-3539" heading="32926" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20507" x="-97715" y="242227" z="-3577" heading="8403" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-97594" y="243308" z="-3577" heading="15229" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-98300" y="243982" z="-3655" heading="22047" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-95637" y="241025" z="-3300" heading="58990" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-96505" y="241001" z="-3376" heading="32572" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-97770" y="241070" z="-3563" heading="32105" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20457" x="-97966" y="242601" z="-3633" heading="54758" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-98075" y="241449" z="-3601" heading="48168" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-98010" y="240372" z="-3597" heading="49776" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-95180" y="241279" z="-3326" heading="19596" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-95778" y="242411" z="-3489" heading="21652" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-96903" y="243444" z="-3579" heading="58169" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-96204" y="242891" z="-3502" heading="58993" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20458" x="-97284" y="244002" z="-3561" heading="21513" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-97559" y="242972" z="-3581" heading="46430" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-97546" y="242052" z="-3545" heading="50923" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-96410" y="240916" z="-3341" heading="53648" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-97883" y="245778" z="-3729" heading="8056" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20505" x="-97954" y="245443" z="-3729" heading="47253" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-98143" y="244652" z="-3726" heading="46694" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-98158" y="243961" z="-3625" heading="49645" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-97639" y="243044" z="-3585" heading="56302" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-96962" y="242507" z="-3500" heading="58868" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-97003" y="240908" z="-3438" heading="47853" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-98216" y="240689" z="-3646" heading="61146" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-96814" y="244549" z="-3573" heading="9870" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-95908" y="242977" z="-3517" heading="52436" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20401" x="-98300" y="244581" z="-3695" heading="9874" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-97375" y="245456" z="-3695" heading="6755" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-96921" y="244218" z="-3577" heading="50516" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-95983" y="241080" z="-3316" heading="49407" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-98248" y="241043" z="-3606" heading="13997" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-97914" y="241933" z="-3598" heading="12085" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-97936" y="242930" z="-3605" heading="19098" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20432" x="-79601" y="248605" z="-3574" heading="41675" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-79682" y="248274" z="-3627" heading="49769" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-79889" y="248418" z="-3626" heading="22687" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-80047" y="248503" z="-3634" heading="27986" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-79902" y="248338" z="-3625" heading="56766" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-79542" y="248590" z="-3582" heading="8059" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-79893" y="248101" z="-3592" heading="43100" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-80255" y="247687" z="-3641" heading="41547" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-80468" y="247706" z="-3629" heading="26634" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="20432" x="-80605" y="248099" z="-3631" heading="20995" respawnDelay="5" /> <!-- Elpy -->
+		<npc id="50008" x="-79639" y="248785" z="-3575" heading="63739" respawnDelay="5" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="50008" x="-79431" y="248595" z="-3575" heading="18939" respawnDelay="5" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="50008" x="-84434" y="242036" z="-3732" heading="21220" respawnDelay="5" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="50008" x="-83877" y="243963" z="-3732" heading="57840" respawnDelay="5" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="50007" x="-83434" y="243550" z="-3732" heading="26056" respawnDelay="5" /> <!-- Andromeda - Wedding Manager -->
+		<npc id="900009" x="-83667" y="244232" z="-3732" heading="59066" respawnDelay="5" /> <!-- Zumzi - Transmogrifier -->
+		<npc id="80000" x="-83191" y="244224" z="-3710" heading="22112" respawnDelay="5" /> <!-- Evi -->
+		<npc id="20101" x="-92726" y="244859" z="-3555" heading="1581" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-91543" y="244634" z="-3531" heading="63517" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-91098" y="243702" z="-3489" heading="52950" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-90397" y="242921" z="-3513" heading="57505" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-89660" y="242393" z="-3547" heading="59172" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-89342" y="242171" z="-3573" heading="59172" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-88567" y="241497" z="-3574" heading="59713" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-87588" y="240886" z="-3605" heading="59713" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-92857" y="242545" z="-3446" heading="15043" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-92795" y="243030" z="-3462" heading="15043" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-92722" y="243591" z="-3491" heading="15043" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-93137" y="244326" z="-3520" heading="22537" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-93569" y="244972" z="-3560" heading="22537" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-94911" y="243742" z="-3547" heading="38605" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-95614" y="243892" z="-3548" heading="30575" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-95798" y="244654" z="-3600" heading="18853" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20101" x="-96022" y="243570" z="-3548" heading="54548" respawnDelay="5" /> <!-- Crasher -->
+		<npc id="20096" x="-88669" y="242877" z="-3605" heading="61114" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-87824" y="241593" z="-3605" heading="56393" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-87300" y="240534" z="-3606" heading="51575" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-87994" y="240630" z="-3595" heading="31328" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-89077" y="241093" z="-3578" heading="27373" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-90970" y="241836" z="-3533" heading="53579" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-90788" y="241433" z="-3533" heading="53579" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-90219" y="240914" z="-3542" heading="57828" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-88991" y="239691" z="-3611" heading="57150" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-88173" y="239878" z="-3605" heading="3970" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-87984" y="242773" z="-3606" heading="11912" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-87743" y="242072" z="-3642" heading="52101" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-87289" y="241246" z="-3632" heading="53603" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-89027" y="241601" z="-3586" heading="28494" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-90255" y="242264" z="-3555" heading="26881" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20096" x="-91575" y="243123" z="-3517" heading="26646" respawnDelay="5" /> <!-- Orc Lieutenant -->
+		<npc id="20230" x="-91493" y="235715" z="-3723" heading="41751" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-89995" y="236777" z="-3692" heading="62340" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-90038" y="235799" z="-3702" heading="48685" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-90071" y="235076" z="-3722" heading="48685" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-92026" y="236566" z="-3700" heading="5050" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-91564" y="236809" z="-3692" heading="5050" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-90423" y="237410" z="-3681" heading="5050" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-91211" y="234817" z="-3731" heading="43482" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-92320" y="235615" z="-3713" heading="23723" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-92360" y="234982" z="-3708" heading="52488" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-92128" y="234281" z="-3734" heading="52488" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20544" x="-80595" y="247664" z="-3633" heading="55727" respawnDelay="5" /> <!-- Elder Keltir -->
+		<npc id="50008" x="-83024" y="243121" z="-3732" heading="3742" respawnDelay="60" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="30086" x="-84004" y="243120" z="-3731" heading="4257" respawnDelay="60" /> <!-- Taurin - Warehouse Keeper -->
+		<npc id="30086" x="-84274" y="243515" z="-3731" heading="58289" respawnDelay="60" /> <!-- Taurin - Warehouse Keeper -->
+		<npc id="30093" x="-83613" y="243205" z="-3731" heading="28846" respawnDelay="60" /> <!-- Groot - Magic Trader -->
+		<npc id="31049" x="-83707" y="243100" z="-3731" heading="25142" respawnDelay="60" /> <!-- Pepper - Symbol Maker -->
+		<npc id="30514" x="-82962" y="242840" z="-3724" heading="45077" respawnDelay="60" /> <!-- Vokian - Prefect -->
+		<npc id="30104" x="-84947" y="243014" z="-3731" heading="7497" respawnDelay="60" /> <!-- Parman - Warehouse Keeper -->
+		<npc id="30300" x="-84902" y="242954" z="-3731" heading="8191" respawnDelay="60" /> <!-- Pushkin - Blacksmith -->
+		<npc id="30476" x="-84781" y="245404" z="-3729" heading="44315" respawnDelay="60" /> <!-- Kaira - Magister -->
+		<npc id="30475" x="-83082" y="242943" z="-3723" heading="34701" respawnDelay="60" /> <!-- Stapin - Master -->
+		<npc id="30472" x="-82889" y="242601" z="-3724" heading="24363" respawnDelay="60" /> <!-- Rosheria - Master -->
+		<npc id="20230" x="-94006" y="239313" z="-3409" heading="18388" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-94794" y="239044" z="-3400" heading="35417" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-94749" y="239644" z="-3330" heading="13472" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-93973" y="240239" z="-3359" heading="5085" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-92973" y="240230" z="-3407" heading="60432" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-92729" y="239557" z="-3473" heading="46360" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20230" x="-94080" y="237936" z="-3455" heading="41073" respawnDelay="5" /> <!-- Marsh Stakato Worker -->
+		<npc id="20089" x="-96503" y="239505" z="-3285" heading="52756" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20089" x="-95791" y="239074" z="-3309" heading="59858" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20089" x="-95590" y="238265" z="-3376" heading="49235" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20089" x="-96158" y="237986" z="-3383" heading="32329" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20089" x="-97460" y="238685" z="-3407" heading="64604" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20089" x="-97460" y="238685" z="-3407" heading="64604" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20089" x="-97686" y="239500" z="-3491" heading="19205" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20806" x="-97767" y="235427" z="-3450" heading="50548" respawnDelay="5" /> <!-- Crokian Lad Warrior -->
+		<npc id="30006" x="-84380" y="242862" z="-3713" heading="42494" respawnDelay="60" /> <!-- Roxxy - Gatekeeper -->
+		<npc id="31286" x="-83185" y="242625" z="-3725" heading="14389" respawnDelay="60" /> <!-- Drakon - Master -->
+		<npc id="31289" x="-83213" y="242673" z="-3725" heading="4836" respawnDelay="60" /> <!-- Lakan - Prefect -->
+		<npc id="31277" x="-83250" y="242708" z="-3725" heading="5546" respawnDelay="60" /> <!-- Felix - Master -->
+		<npc id="31278" x="-83273" y="242740" z="-3725" heading="5289" respawnDelay="60" /> <!-- Bronwyn - Master -->
+		<npc id="31287" x="-84564" y="245193" z="-3730" heading="29412" respawnDelay="60" /> <!-- Kamilen - Magister -->
+		<npc id="31267" x="-84854" y="242894" z="-3732" heading="3890" respawnDelay="60" /> <!-- Lietta - Warehouse Keeper -->
+		<npc id="31290" x="-84591" y="245529" z="-3719" heading="42312" respawnDelay="60" /> <!-- Skahi - Seer -->
+		<npc id="31283" x="-84428" y="245378" z="-3719" heading="39107" respawnDelay="60" /> <!-- Alminas - Magister -->
+		<npc id="31282" x="-85217" y="244653" z="-3730" heading="9123" respawnDelay="60" /> <!-- Justin - Magister -->
+		<npc id="30004" x="-83993" y="242965" z="-3732" heading="63943" respawnDelay="60" /> <!-- Katerina - Trader -->
+		<npc id="31740" x="-84399" y="243114" z="-3704" heading="26118" respawnDelay="60" /> <!-- Caradine -->
+		<npc id="50008" x="-84035" y="243191" z="-3728" respawnDelay="60" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="31032" x="-79993" y="244625" z="-3736" heading="65427" respawnDelay="60" /> <!-- Guard -->
+		<npc id="31032" x="-80689" y="243599" z="-3720" heading="42864" respawnDelay="60" /> <!-- Guard -->
+		<npc id="31032" x="-83600" y="239403" z="-3728" heading="34586" respawnDelay="60" /> <!-- Guard -->
+		<npc id="31032" x="-83876" y="237783" z="-3736" heading="46512" respawnDelay="60" /> <!-- Guard -->
+		<npc id="31032" x="-84770" y="238994" z="-3712" heading="23565" respawnDelay="60" /> <!-- Guard -->
+		<npc id="30006" x="-79134" y="240739" z="-3488" heading="35600" respawnDelay="60" /> <!-- Roxxy - Gatekeeper -->
+		<npc id="50008" x="-79093" y="240606" z="-3488" heading="34705" respawnDelay="60" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="30104" x="-79314" y="240313" z="-3504" heading="18144" respawnDelay="60" /> <!-- Parman - Warehouse Keeper -->
+		<npc id="30113" x="-84872" y="244878" z="-3720" heading="24575" respawnDelay="60" /> <!-- Juris - Magister -->
+		<npc id="30515" x="-85089" y="245097" z="-3720" heading="57417" respawnDelay="60" /> <!-- Manakia - Seer -->
+	</spawn>
+</list>

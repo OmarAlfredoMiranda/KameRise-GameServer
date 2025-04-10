@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Crystals-->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+    <npcs>
+        <npc>30086</npc> <!-- GMshop -->
+    </npcs>
+
+    <!-- Crystal D-Grade -->
+    <item>
+        <ingredient id="57" count="1100"/>
+        <production id="1458" count="1"/>
+    </item>
+
+    <!-- Crystal C-Grade -->
+    <item>
+        <ingredient id="57" count="4898"/>
+        <production id="1459" count="1"/>
+    </item>
+
+    <!-- Crystal B-Grade -->
+    <item>
+        <ingredient id="57" count="18000"/>
+        <production id="1460" count="1"/>
+    </item>
+
+    <!-- Crystal A-Grade -->
+    <item>
+        <ingredient id="57" count="65000"/>
+        <production id="1461" count="1"/>
+    </item>
+
+    <!-- Crystal S-Grade -->
+    <item>
+        <ingredient id="57" count="128000"/>
+        <production id="1462" count="1"/>
+    </item>
+
+
+    <!-- Tattoo of Fire D-->
+    <item>
+        <ingredient id="57" count="2500000"/>
+        <ingredient id="1462" count="10"/>
+        <production id="486" count="1"/>
+    </item>
+
+    <!-- Tattoo of Tattoo of Bravery C-->
+    <item>
+        <ingredient id="57" count="15000000"/>
+        <ingredient id="486" count="1"/>
+        <production id="489" count="1"/>
+    </item>
+
+    <!-- Tattoo of Avadon B-->
+    <item>
+        <ingredient id="57" count="50000000"/>
+        <ingredient id="489" count="1"/>
+        <production id="493" count="1"/>
+    </item>
+    
+    <!-- Tattoo of Absolute A-->
+    <item>
+        <ingredient id="57" count="250000000"/>
+        <ingredient id="493" count="1"/>
+        <production id="491" count="1"/>
+    </item>
+
+</list>

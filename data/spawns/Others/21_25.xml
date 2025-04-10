@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="21_25">
+		<npc id="21206" x="43582" y="248230" z="-6501" heading="6185" respawnDelay="10" /> <!-- Nephilim Cardinal -->
+		<npc id="21206" x="43562" y="248849" z="-6496" heading="12287" respawnDelay="10" /> <!-- Nephilim Cardinal -->
+		<npc id="21206" x="45064" y="248262" z="-6414" heading="11911" respawnDelay="10" /> <!-- Nephilim Cardinal -->
+		<npc id="21206" x="47522" y="246825" z="-6620" heading="44363" respawnDelay="10" /> <!-- Nephilim Cardinal -->
+		<npc id="21206" x="47750" y="249397" z="-6365" heading="16659" respawnDelay="10" /> <!-- Nephilim Cardinal -->
+		<npc id="21207" x="47740" y="249225" z="-6365" heading="48546" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="44958" y="249284" z="-6365" heading="34199" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="45605" y="248986" z="-6365" heading="52097" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="43520" y="248252" z="-6501" heading="52197" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="44933" y="248590" z="-6415" heading="26150" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="47787" y="249449" z="-6365" heading="23289" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="47831" y="246928" z="-6620" heading="25423" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="47777" y="246640" z="-6620" heading="47218" respawnDelay="10" /> <!-- Nephilim Commander -->
+		<npc id="21206" x="45230" y="249267" z="-6364" heading="22592" respawnDelay="10" /> <!-- Nephilim Cardinal -->
+		<npc id="21205" x="45320" y="249172" z="-6365" heading="57062" respawnDelay="10" /> <!-- Nephilim Royal Guard -->
+		<npc id="21205" x="47726" y="249235" z="-6365" heading="2424" respawnDelay="10" /> <!-- Nephilim Royal Guard -->
+		<npc id="21205" x="43403" y="248330" z="-6501" heading="37095" respawnDelay="10" /> <!-- Nephilim Royal Guard -->
+		<npc id="21204" x="43750" y="248582" z="-6501" heading="6797" respawnDelay="10" /> <!-- Nephilim Praetorian -->
+		<npc id="21204" x="45165" y="248518" z="-6415" heading="600" respawnDelay="10" /> <!-- Nephilim Praetorian -->
+		<npc id="21204" x="45443" y="249399" z="-6365" heading="10233" respawnDelay="10" /> <!-- Nephilim Praetorian -->
+		<npc id="21204" x="47680" y="249176" z="-6365" heading="815" respawnDelay="10" /> <!-- Nephilim Praetorian -->
+		<npc id="21204" x="47623" y="246942" z="-6620" heading="12071" respawnDelay="10" /> <!-- Nephilim Praetorian -->
+		<npc id="21205" x="45192" y="248451" z="-6415" heading="1852" respawnDelay="10" /> <!-- Nephilim Royal Guard -->
+		<npc id="50008" x="47874" y="248545" z="-6364" heading="51085" respawnDelay="10" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="21184" x="43602" y="244106" z="-6501" heading="17890" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21185" x="43808" y="244276" z="-6501" heading="18506" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21186" x="43450" y="244464" z="-6501" heading="59165" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="43655" y="244458" z="-6501" heading="22824" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21185" x="44983" y="243035" z="-6467" heading="26686" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="45706" y="243044" z="-6467" heading="3909" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21184" x="45154" y="242951" z="-6467" heading="34613" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="45681" y="242891" z="-6467" heading="64353" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="45752" y="244470" z="-6517" heading="5110" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="44209" y="245328" z="-6466" heading="58579" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="44296" y="245798" z="-6466" heading="16450" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="43227" y="245358" z="-6466" heading="61125" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="42545" y="245343" z="-6466" heading="29401" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="42960" y="247163" z="-6466" heading="57917" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="42791" y="247698" z="-6466" heading="33225" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="41663" y="246045" z="-6466" heading="49706" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="41637" y="246671" z="-6466" heading="64714" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21185" x="43090" y="245423" z="-6466" heading="816" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="42812" y="245341" z="-6466" heading="63381" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="41746" y="246246" z="-6466" heading="14831" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="41461" y="246641" z="-6466" heading="18732" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="42810" y="247607" z="-6466" heading="13873" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="42758" y="247134" z="-6466" heading="48009" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="44301" y="245793" z="-6466" heading="14285" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="44329" y="245295" z="-6466" heading="49737" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21186" x="42707" y="247084" z="-6466" heading="44858" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="42817" y="247713" z="-6466" heading="13542" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="41573" y="246785" z="-6466" heading="31134" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="41574" y="246070" z="-6466" heading="49683" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="42443" y="245338" z="-6466" heading="2452" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="43206" y="245430" z="-6466" heading="37" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="44307" y="245880" z="-6466" heading="7347" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="44264" y="245265" z="-6466" heading="48910" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="45780" y="244333" z="-6517" heading="123" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="44963" y="243048" z="-6467" heading="43258" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="45844" y="243192" z="-6467" heading="62858" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="47376" y="243034" z="-6567" heading="64617" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="47126" y="243372" z="-6567" heading="23026" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21186" x="46566" y="242967" z="-6567" heading="39298" respawnDelay="15" /> <!-- Lilim Court Knight -->
+		<npc id="21185" x="46855" y="242895" z="-6567" heading="62989" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21185" x="47331" y="242932" z="-6567" heading="809" respawnDelay="15" /> <!-- Lilim Great Mystic -->
+		<npc id="21184" x="47411" y="243014" z="-6567" heading="8320" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="46625" y="243140" z="-6567" heading="28955" respawnDelay="15" /> <!-- Lilim Slayer -->
+		<npc id="21184" x="47292" y="243358" z="-6567" heading="3294" respawnDelay="15" /> <!-- Lilim Slayer -->
+	</spawn>
+</list>

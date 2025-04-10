@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="16_24">
+		<npc id="20593" x="-103420" y="229139" z="-3713" heading="33450" respawnDelay="5" /> <!-- Unicorn -->
+		<npc id="20599" x="-103740" y="227467" z="-3680" heading="38096" respawnDelay="5" /> <!-- Unicorn Elder -->
+	</spawn>
+</list>

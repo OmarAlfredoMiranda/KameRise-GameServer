@@ -1,0 +1,774 @@
+feb 10, 2025 1:00:37 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=1285level1
+java.lang.IllegalArgumentException: Byte value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getByte(StatSet.java:188)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:296)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:37 A. M. org.l2jmobius.gameserver.util.DocumentBase parse
+GRAVE: Error loading file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\stats\skills\01200-01299.xml
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:510)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 2
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 3
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 4
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 5
+java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 6
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 7
+java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 8
+java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 9
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 10
+java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 11
+java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 12
+java.lang.ArrayIndexOutOfBoundsException: Index 11 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4699 name: #abnormalTime index : 13
+java.lang.ArrayIndexOutOfBoundsException: Index 12 out of bounds for length 1
+	at org.l2jmobius.gameserver.util.DocumentSkill.getTableValue(DocumentSkill.java:98)
+	at org.l2jmobius.gameserver.util.DocumentBase.getValue(DocumentBase.java:1241)
+	at org.l2jmobius.gameserver.util.DocumentBase.parseBeanSet(DocumentBase.java:1217)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:241)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level2
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level3
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level4
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level5
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level6
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level7
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level8
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level9
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level10
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level11
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level12
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4699level13
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentBase parse
+GRAVE: Error loading file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\stats\skills\04600-04699.xml
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:510)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 2
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 3
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 4
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 5
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 6
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 7
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 8
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 9
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 10
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 11
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 12
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill getTableValue
+GRAVE: wrong level count in skill Id 4700 name: #abnormalTime index : 13
+java.lang.ArrayIndexOutOfBoundsException
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level2
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level3
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level4
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level5
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level6
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level7
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level8
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level9
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level10
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level11
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level12
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentSkill makeSkills
+GRAVE: Skill id=4700level13
+java.lang.IllegalArgumentException: Integer value required, but found: 
+	at org.l2jmobius.gameserver.model.StatSet.getInt(StatSet.java:347)
+	at org.l2jmobius.gameserver.model.skill.Skill.<init>(Skill.java:232)
+	at org.l2jmobius.gameserver.util.DocumentSkill.makeSkills(DocumentSkill.java:1564)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:482)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+
+feb 10, 2025 1:00:38 A. M. org.l2jmobius.gameserver.util.DocumentBase parse
+GRAVE: Error loading file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\stats\skills\04700-04799.xml
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseSkill(DocumentSkill.java:510)
+	at org.l2jmobius.gameserver.util.DocumentSkill.parseDocument(DocumentSkill.java:119)
+	at org.l2jmobius.gameserver.util.DocumentBase.parse(DocumentBase.java:152)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadSkills(SkillData.java:82)
+	at org.l2jmobius.gameserver.data.xml.SkillData.loadAllSkills(SkillData.java:122)
+	at org.l2jmobius.gameserver.data.xml.SkillData.load(SkillData.java:141)
+	at org.l2jmobius.gameserver.data.xml.SkillData.<init>(SkillData.java:56)
+	at org.l2jmobius.gameserver.data.xml.SkillData$SingletonHolder.<clinit>(SkillData.java:264)
+	at org.l2jmobius.gameserver.data.xml.SkillData.getInstance(SkillData.java:259)
+	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:234)
+	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
+

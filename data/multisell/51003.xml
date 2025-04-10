@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- D-Grade Weapons -->
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>30086</npc> <!-- GMshop -->
+	</npcs>
+  <!-- Elven Long Sword -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="2499" count="1"/>
+  </item>
+
+  <!-- Mithril Dagger -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="225" count="1"/>
+  </item>
+
+  <!-- Bonebreaker -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="159" count="1"/>
+  </item>
+
+  <!-- Staff of Life -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="189" count="1"/>
+  </item>
+  <!-- Reinforced Long Bow -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="279" count="1"/>
+  </item>
+
+  <!-- Scallop Jamadhr -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="262" count="1"/>
+  </item>
+
+  <!-- Glaive -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="297" count="1"/>
+  </item>
+
+  <!-- Claymore -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="70" count="1"/>
+  </item>
+
+  <!-- Scallop Jamadhr -->
+  <item>
+    <ingredient id="57" count="1000000"/>
+    <production id="2525" count="1"/>
+  </item>
+
+</list>

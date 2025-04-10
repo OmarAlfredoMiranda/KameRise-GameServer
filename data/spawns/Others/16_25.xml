@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="16_25">
+		<npc id="20507" x="-99102" y="240960" z="-3704" heading="8293" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-98945" y="243815" z="-3699" heading="41747" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-99363" y="242852" z="-3699" heading="48068" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-100772" y="242884" z="-3640" heading="27633" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-100972" y="242050" z="-3577" heading="44590" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-99982" y="241416" z="-3676" heading="58515" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20507" x="-100145" y="241999" z="-3653" heading="32323" respawnDelay="5" /> <!-- Ruin Imp Elder -->
+		<npc id="20457" x="-100145" y="241999" z="-3653" heading="32323" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-99606" y="242327" z="-3723" heading="30291" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-99153" y="240565" z="-3694" heading="51593" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20457" x="-98955" y="241981" z="-3681" heading="16100" respawnDelay="5" /> <!-- Zombie Soldier -->
+		<npc id="20458" x="-98688" y="241885" z="-3670" heading="17145" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-100278" y="242301" z="-3639" heading="28376" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-101162" y="242653" z="-3612" heading="28572" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-102140" y="243307" z="-3675" heading="19295" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-101416" y="243623" z="-3677" heading="4292" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-100410" y="243119" z="-3656" heading="60691" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-99074" y="243348" z="-3684" heading="65072" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20458" x="-98823" y="244991" z="-3716" heading="18068" respawnDelay="5" /> <!-- Zombie Warrior -->
+		<npc id="20505" x="-99504" y="240385" z="-3708" heading="22325" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-99490" y="241591" z="-3713" heading="16913" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-99504" y="243057" z="-3695" heading="18695" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-100613" y="242806" z="-3633" heading="36756" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-100403" y="241837" z="-3605" heading="15012" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20505" x="-98371" y="242524" z="-3672" heading="17503" respawnDelay="5" /> <!-- Ruin Bat -->
+		<npc id="20401" x="-100163" y="240905" z="-3646" heading="34814" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-101215" y="242713" z="-3621" heading="6725" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-99496" y="243076" z="-3666" heading="837" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20401" x="-99401" y="240008" z="-3662" heading="9757" respawnDelay="5" /> <!-- Veelan Bugbear -->
+		<npc id="20672" x="-105245" y="237272" z="-3620" heading="4117" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-103467" y="237976" z="-3590" heading="3702" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-102793" y="236187" z="-3457" heading="36415" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-104180" y="235622" z="-3569" heading="37151" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-105214" y="234717" z="-3623" heading="46342" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-106069" y="233948" z="-3616" heading="36818" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-106636" y="234643" z="-3646" heading="14152" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-104494" y="236642" z="-3708" heading="4035" respawnDelay="5" /> <!-- Trives -->
+		<npc id="20672" x="-102379" y="237504" z="-3649" heading="4035" respawnDelay="5" /> <!-- Trives -->
+		<npc id="21075" x="-104463" y="235902" z="-3568" heading="37799" respawnDelay="5" /> <!-- Slaughter Bathin -->
+		<npc id="21075" x="-106033" y="234808" z="-3602" heading="42748" respawnDelay="5" /> <!-- Slaughter Bathin -->
+		<npc id="21075" x="-104680" y="237746" z="-3597" heading="64331" respawnDelay="5" /> <!-- Slaughter Bathin -->
+		<npc id="21075" x="-104201" y="237070" z="-3681" heading="33539" respawnDelay="5" /> <!-- Slaughter Bathin -->
+		<npc id="21076" x="-105296" y="236406" z="-3707" heading="42229" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-105544" y="236088" z="-3725" heading="42229" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-105989" y="235505" z="-3705" heading="42347" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-106425" y="234934" z="-3681" heading="42347" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-106664" y="234622" z="-3668" heading="42347" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-104630" y="234826" z="-3612" heading="6271" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-103706" y="235460" z="-3567" heading="6287" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-103435" y="235647" z="-3547" heading="6287" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-102723" y="236323" z="-3480" heading="8530" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-102653" y="237028" z="-3616" heading="19692" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21076" x="-103864" y="237310" z="-3648" heading="30111" respawnDelay="5" /> <!-- Bathin's Knight -->
+		<npc id="21299" x="-103755" y="241045" z="-3417" heading="28808" respawnDelay="5" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-104804" y="239752" z="-3503" heading="4437" respawnDelay="5" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-103370" y="239850" z="-3440" heading="714" respawnDelay="5" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-105633" y="241477" z="-3578" heading="3389" respawnDelay="5" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-104645" y="241810" z="-3614" heading="3389" respawnDelay="5" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-103891" y="242064" z="-3662" heading="3389" respawnDelay="5" /> <!-- Buffalo Slave -->
+		<npc id="21304" x="-103182" y="240416" z="-3428" heading="49494" respawnDelay="5" /> <!-- Grendel Slave -->
+		<npc id="50008" x="-100445" y="237956" z="-3576" heading="55584" respawnDelay="25" /> <!-- Rex the Cat - Scheme Buffer -->
+		<npc id="20806" x="-100522" y="235909" z="-3438" heading="46876" respawnDelay="15" /> <!-- Crokian Lad Warrior -->
+		<npc id="20806" x="-99826" y="236075" z="-3465" heading="2442" respawnDelay="15" /> <!-- Crokian Lad Warrior -->
+		<npc id="20806" x="-100272" y="235582" z="-3454" heading="41481" respawnDelay="15" /> <!-- Crokian Lad Warrior -->
+		<npc id="20806" x="-100022" y="235053" z="-3383" heading="53756" respawnDelay="15" /> <!-- Crokian Lad Warrior -->
+		<npc id="20806" x="-101046" y="234993" z="-3400" heading="30981" respawnDelay="15" /> <!-- Crokian Lad Warrior -->
+		<npc id="20591" x="-102366" y="233113" z="-3518" heading="2205" respawnDelay="25" /> <!-- Valley Treant -->
+		<npc id="20591" x="-102415" y="232521" z="-3542" heading="9115" respawnDelay="25" /> <!-- Valley Treant -->
+		<npc id="20591" x="-103467" y="232760" z="-3635" heading="26928" respawnDelay="15" /> <!-- Valley Treant -->
+		<npc id="20591" x="-104028" y="232377" z="-3680" heading="39016" respawnDelay="25" /> <!-- Valley Treant -->
+		<npc id="20591" x="-103755" y="233361" z="-3621" heading="13561" respawnDelay="25" /> <!-- Valley Treant -->
+		<npc id="20591" x="-102270" y="231441" z="-3644" heading="30078" respawnDelay="15" /> <!-- Valley Treant -->
+		<npc id="20597" x="-105151" y="231314" z="-3695" heading="10508" respawnDelay="25" /> <!-- Valley Treant Elder -->
+		<npc id="20597" x="-106024" y="231470" z="-3729" heading="29084" respawnDelay="15" /> <!-- Valley Treant Elder -->
+		<npc id="20597" x="-106502" y="230655" z="-3742" heading="43619" respawnDelay="25" /> <!-- Valley Treant Elder -->
+		<npc id="20597" x="-107829" y="231114" z="-3688" heading="27060" respawnDelay="25" /> <!-- Valley Treant Elder -->
+		<npc id="20597" x="-105597" y="232339" z="-3724" heading="33778" respawnDelay="15" /> <!-- Valley Treant Elder -->
+		<npc id="20597" x="-104325" y="230368" z="-3707" heading="3497" respawnDelay="25" /> <!-- Valley Treant Elder -->
+		<npc id="20593" x="-103022" y="233783" z="-3495" heading="61461" respawnDelay="25" /> <!-- Unicorn -->
+		<npc id="20593" x="-104067" y="231553" z="-3680" heading="42177" respawnDelay="25" /> <!-- Unicorn -->
+		<npc id="20593" x="-102485" y="230304" z="-3723" heading="62919" respawnDelay="25" /> <!-- Unicorn -->
+		<npc id="20599" x="-106450" y="229793" z="-3597" heading="32696" respawnDelay="25" /> <!-- Unicorn Elder -->
+		<npc id="20599" x="-107064" y="230843" z="-3728" heading="21898" respawnDelay="25" /> <!-- Unicorn Elder -->
+		<npc id="20599" x="-106486" y="232465" z="-3684" heading="31189" respawnDelay="25" /> <!-- Unicorn Elder -->
+		<npc id="20599" x="-104806" y="229435" z="-3729" heading="25250" respawnDelay="25" /> <!-- Unicorn Elder -->
+		<npc id="20089" x="-98567" y="238565" z="-3566" heading="28463" respawnDelay="5" /> <!-- Noble Ant -->
+		<npc id="20806" x="-98480" y="235979" z="-3358" heading="63940" respawnDelay="5" /> <!-- Crokian Lad Warrior -->
+		<npc id="20806" x="-98653" y="235145" z="-3355" heading="44256" respawnDelay="5" /> <!-- Crokian Lad Warrior -->
+		<npc id="21308" x="-108274" y="238132" z="-3580" heading="20841" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21310" x="-107366" y="237484" z="-3674" heading="57998" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-108607" y="237009" z="-3557" heading="36298" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-107593" y="236371" z="-3614" heading="56930" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-109351" y="239371" z="-3503" heading="37889" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21308" x="-108237" y="239100" z="-3634" heading="62915" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-109502" y="236458" z="-3552" heading="45469" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-108679" y="235173" z="-3625" heading="10474" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-105947" y="238125" z="-3692" heading="2388" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-107060" y="238778" z="-3680" heading="25506" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21310" x="-106239" y="237162" z="-3658" heading="18894" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-104943" y="238701" z="-3616" heading="3494" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-109983" y="237568" z="-3566" heading="37236" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21304" x="-101765" y="239984" z="-3384" heading="57083" respawnDelay="30" /> <!-- Grendel Slave -->
+		<npc id="21304" x="-102029" y="241432" z="-3488" heading="17558" respawnDelay="30" /> <!-- Grendel Slave -->
+		<npc id="21304" x="-102787" y="241853" z="-3528" heading="22903" respawnDelay="30" /> <!-- Grendel Slave -->
+		<npc id="21299" x="-101431" y="241056" z="-3432" heading="53388" respawnDelay="30" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-104880" y="240912" z="-3536" heading="9512" respawnDelay="30" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-102285" y="239799" z="-3384" heading="50853" respawnDelay="30" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-101302" y="239477" z="-3424" heading="63056" respawnDelay="30" /> <!-- Buffalo Slave -->
+		<npc id="21299" x="-101966" y="239022" z="-3440" heading="41800" respawnDelay="30" /> <!-- Buffalo Slave -->
+		<npc id="21310" x="-107875" y="238413" z="-3624" heading="20326" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-108273" y="236508" z="-3576" heading="47554" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-108820" y="236119" z="-3608" heading="4989" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-109210" y="237616" z="-3640" heading="19540" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-109999" y="238618" z="-3544" heading="22620" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21308" x="-107575" y="239086" z="-3632" heading="29086" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-107629" y="240140" z="-3648" heading="17377" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-108525" y="239841" z="-3568" heading="36915" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-107289" y="239691" z="-3640" heading="65307" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-106514" y="238055" z="-3704" heading="48814" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-106345" y="239079" z="-3664" heading="12533" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-106836" y="240513" z="-3672" heading="20195" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21308" x="-106808" y="239802" z="-3632" heading="41756" respawnDelay="30" /> <!-- Disciples of Punishment -->
+		<npc id="21310" x="-107549" y="240490" z="-3488" heading="14094" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-108492" y="240172" z="-3456" heading="36475" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-108896" y="238254" z="-3632" heading="18378" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-106185" y="239654" z="-3608" heading="5826" respawnDelay="30" /> <!-- Disciples of Authority -->
+		<npc id="21310" x="-106514" y="240536" z="-3672" heading="19892" respawnDelay="30" /> <!-- Disciples of Authority -->
+	</spawn>
+</list>
