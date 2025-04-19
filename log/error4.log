@@ -1,4 +1,4 @@
-abr 06, 2025 2:10:18 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 15, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 485
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -16,7 +16,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 06, 2025 2:10:18 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 15, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 486
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -34,7 +34,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 06, 2025 2:10:18 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 15, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 488
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -52,7 +52,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 06, 2025 2:10:18 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 15, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 489
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -69,106 +69,4 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.data.xml.ItemData.getInstance(ItemData.java:542)
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
-
-abr 06, 2025 2:10:19 A. M. org.l2jmobius.gameserver.data.xml.MultisellData parseDocument
-GRAVE: MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.item.ItemTemplate.getReferencePrice()" because "template" is null
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseEntry(MultisellData.java:208)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseDocument(MultisellData.java:133)
-	at org.l2jmobius.commons.util.IXmlReader.parseFile(IXmlReader.java:106)
-	at org.l2jmobius.commons.util.IXmlReader.parseDirectory(IXmlReader.java:228)
-	at org.l2jmobius.commons.util.IXmlReader.parseDatapackDirectory(IXmlReader.java:154)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.load(MultisellData.java:73)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.<init>(MultisellData.java:66)
-	at org.l2jmobius.gameserver.data.xml.MultisellData$SingletonHolder.<clinit>(MultisellData.java:456)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.getInstance(MultisellData.java:451)
-	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:246)
-	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
-
-abr 06, 2025 2:14:27 A. M. org.l2jmobius.commons.util.IXmlReader parseFile
-ADVERTENCIA: Could not parse file: 52009.xml at line: 44, column: 17 :
-org.xml.sax.SAXParseException; systemId: file:/C:/Users/Usuario/Desktop/Server%20Interlude%20KameKase/game/data/multisell/52009.xml; lineNumber: 44; columnNumber: 17; La cadena "--" no está permitida en los comentarios.
-	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
-	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1079)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2914)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114)
-	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
-	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
-	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
-	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
-	at org.l2jmobius.commons.util.IXmlReader.parseFile(IXmlReader.java:106)
-	at org.l2jmobius.commons.util.IXmlReader.parseDirectory(IXmlReader.java:228)
-	at org.l2jmobius.commons.util.IXmlReader.parseDatapackDirectory(IXmlReader.java:154)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.load(MultisellData.java:73)
-	at handlers.admincommandhandlers.AdminReload.useAdminCommand(AdminReload.java:165)
-	at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$useAdminCommand$0(AdminCommandHandler.java:127)
-	at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:245)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-abr 06, 2025 2:16:00 A. M. org.l2jmobius.gameserver.data.xml.MultisellData parseDocument
-GRAVE: MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.item.ItemTemplate.getReferencePrice()" because "template" is null
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseEntry(MultisellData.java:208)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseDocument(MultisellData.java:133)
-	at org.l2jmobius.commons.util.IXmlReader.parseFile(IXmlReader.java:106)
-	at org.l2jmobius.commons.util.IXmlReader.parseDirectory(IXmlReader.java:228)
-	at org.l2jmobius.commons.util.IXmlReader.parseDatapackDirectory(IXmlReader.java:154)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.load(MultisellData.java:73)
-	at handlers.admincommandhandlers.AdminReload.useAdminCommand(AdminReload.java:165)
-	at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$useAdminCommand$0(AdminCommandHandler.java:127)
-	at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:245)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-abr 06, 2025 2:17:45 A. M. org.l2jmobius.gameserver.data.xml.MultisellData parseDocument
-GRAVE: MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.item.ItemTemplate.getReferencePrice()" because "template" is null
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseEntry(MultisellData.java:208)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseDocument(MultisellData.java:133)
-	at org.l2jmobius.commons.util.IXmlReader.parseFile(IXmlReader.java:106)
-	at org.l2jmobius.commons.util.IXmlReader.parseDirectory(IXmlReader.java:228)
-	at org.l2jmobius.commons.util.IXmlReader.parseDatapackDirectory(IXmlReader.java:154)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.load(MultisellData.java:73)
-	at handlers.admincommandhandlers.AdminReload.useAdminCommand(AdminReload.java:165)
-	at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$useAdminCommand$0(AdminCommandHandler.java:127)
-	at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:245)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-abr 06, 2025 2:23:20 A. M. org.l2jmobius.gameserver.data.xml.MultisellData parseDocument
-GRAVE: MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.item.ItemTemplate.getReferencePrice()" because "template" is null
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseEntry(MultisellData.java:208)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseDocument(MultisellData.java:133)
-	at org.l2jmobius.commons.util.IXmlReader.parseFile(IXmlReader.java:106)
-	at org.l2jmobius.commons.util.IXmlReader.parseDirectory(IXmlReader.java:228)
-	at org.l2jmobius.commons.util.IXmlReader.parseDatapackDirectory(IXmlReader.java:154)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.load(MultisellData.java:73)
-	at handlers.admincommandhandlers.AdminReload.useAdminCommand(AdminReload.java:165)
-	at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$useAdminCommand$0(AdminCommandHandler.java:127)
-	at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:245)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-abr 06, 2025 2:23:46 A. M. org.l2jmobius.gameserver.data.xml.MultisellData parseDocument
-GRAVE: MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
-java.lang.NullPointerException
-
-abr 06, 2025 2:25:08 A. M. org.l2jmobius.gameserver.data.xml.MultisellData parseDocument
-GRAVE: MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
-java.lang.NullPointerException
 

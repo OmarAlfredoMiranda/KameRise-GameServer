@@ -6461,7 +6461,7 @@
 			<param name="MoveAroundSocial" value="120" />
 			<param name="MoveAroundSocial1" value="120" />
 			<param name="MoveAroundSocial2" value="120" />
-			<skill name="CheckMagic" id="4098" level="6" /> <!-- Silence -->
+			<!--<skill name="CheckMagic" id="4098" level="6" />  Silence -->
 			<skill name="CheckMagic1" id="4046" level="6" /> <!-- Sleep -->
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
@@ -6491,7 +6491,7 @@
 			<skill id="4039" level="6" /> <!-- NPC MP Drain -->
 			<skill id="4046" level="6" /> <!-- Sleep -->
 			<!--<skill id="4094" level="6" />  NPC Cancel Magic -->
-			<skill id="4098" level="6" /> <!-- Silence -->
+			<!--skill id="4098" level="6" />  Silence -->
 			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->

@@ -1,4 +1,4 @@
-abr 04, 2025 9:47:40 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 13, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 485
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -16,7 +16,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 04, 2025 9:47:40 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 13, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 486
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -34,7 +34,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 04, 2025 9:47:40 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 13, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 488
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -52,7 +52,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 04, 2025 9:47:40 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 13, 2025 6:00:14 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 489
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -68,20 +68,5 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.data.xml.ItemData$SingletonHolder.<clinit>(ItemData.java:547)
 	at org.l2jmobius.gameserver.data.xml.ItemData.getInstance(ItemData.java:542)
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
-	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
-
-abr 04, 2025 9:47:42 A. M. org.l2jmobius.gameserver.data.xml.MultisellData parseDocument
-GRAVE: MultisellData: Error in file C:\Users\Usuario\Desktop\Server Interlude KameKase\game\data\multisell\52009.xml
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.item.ItemTemplate.getReferencePrice()" because "template" is null
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseEntry(MultisellData.java:208)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.parseDocument(MultisellData.java:133)
-	at org.l2jmobius.commons.util.IXmlReader.parseFile(IXmlReader.java:106)
-	at org.l2jmobius.commons.util.IXmlReader.parseDirectory(IXmlReader.java:228)
-	at org.l2jmobius.commons.util.IXmlReader.parseDatapackDirectory(IXmlReader.java:154)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.load(MultisellData.java:73)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.<init>(MultisellData.java:66)
-	at org.l2jmobius.gameserver.data.xml.MultisellData$SingletonHolder.<clinit>(MultisellData.java:456)
-	at org.l2jmobius.gameserver.data.xml.MultisellData.getInstance(MultisellData.java:451)
-	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:246)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 

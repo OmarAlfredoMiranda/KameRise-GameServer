@@ -1,4 +1,4 @@
-abr 06, 2025 2:43:29 P. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 16, 2025 6:00:13 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 485
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -16,7 +16,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 06, 2025 2:43:29 P. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 16, 2025 6:00:13 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 486
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -34,7 +34,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 06, 2025 2:43:29 P. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 16, 2025 6:00:13 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 488
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
@@ -52,7 +52,7 @@ java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:238)
 	at org.l2jmobius.gameserver.GameServer.main(GameServer.java:465)
 
-abr 06, 2025 2:43:29 P. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
+abr 16, 2025 6:00:13 A. M. org.l2jmobius.gameserver.util.DocumentItem parseDocument
 ADVERTENCIA: Cannot create item 489
 java.util.NoSuchElementException: Unknown name 'speed' for enum BaseStats
 	at org.l2jmobius.gameserver.model.stats.Stat.valueOfXml(Stat.java:224)
